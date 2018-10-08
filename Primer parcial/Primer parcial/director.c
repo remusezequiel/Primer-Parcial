@@ -199,13 +199,13 @@ int mostrarListaTipo_sDirector(sDirector* array, int size)
 
 
 void hardcoreoPelicula(sDirector* array,int freeIndex,int auxIdDirector ,char* auxNombre,
-                        char* auxPaisDeOrigen, int auxIsEmpty)
+                        int dia, int mes, int anio,char* auxPaisDeOrigen, int auxIsEmpty)
 {
     array[freeIndex].idDirector=auxIdDirector;
     strcpy(array[freeIndex].nombre,auxNombre);
-    //array[freeIndex].nacimiento.dia=auxNacimiento.dia;
-    //array[freeIndex].nacimiento.mes=auxNacimiento.mes;
-    //array[freeIndex].nacimiento.anio=auxNacimiento.anio;
+    array[freeIndex].nacimiento.dia=dia;
+    array[freeIndex].nacimiento.mes=mes;
+    array[freeIndex].nacimiento.anio=anio;
     strcpy(array[freeIndex].paisDeOrigen,auxPaisDeOrigen);
     array[freeIndex].isEmpty=auxIsEmpty;
 }

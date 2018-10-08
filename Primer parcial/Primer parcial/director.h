@@ -29,6 +29,6 @@ void mostrarUnTipo_sDirector(sDirector director);
 int mostrarListaTipo_sDirector(sDirector* array, int size);
 
 void hardcoreoDirector(sDirector* array,int freeIndex,int auxIdDirector ,char* auxNombre,
-                        char* auxPaisDeOrigen, int auxIsEmpty);
+                       int dia,int mes,int anio, char* auxPaisDeOrigen, int auxIsEmpty);
 
 //////////////////////////////////////////////////////////////////

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1538993582 source:c:\users\ezequ\desktop\primer parcial\primer parcial\director.c
+1538995976 source:c:\users\ezequ\desktop\primer parcial\primer parcial\director.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -15,25 +15,25 @@
 
 1538949469 c:\users\ezequ\desktop\primer parcial\primer parcial\funcionesvarias.h
 
-1538993202 source:c:\users\ezequ\desktop\primer parcial\primer parcial\film.c
+1538996028 source:c:\users\ezequ\desktop\primer parcial\primer parcial\film.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"film.h"
 	"funcionesVarias.h"
 
-1538993218 c:\users\ezequ\desktop\primer parcial\primer parcial\film.h
+1538996056 c:\users\ezequ\desktop\primer parcial\primer parcial\film.h
 	"director.h"
 	"date.h"
 
-1538993795 c:\users\ezequ\desktop\primer parcial\primer parcial\director.h
+1538995976 c:\users\ezequ\desktop\primer parcial\primer parcial\director.h
 	"date.h"
 
 1538695900 source:c:\users\ezequ\desktop\primer parcial\primer parcial\fecha.c
 
 1538696009 c:\users\ezequ\desktop\primer parcial\primer parcial\fecha.h
 
-1538993751 source:c:\users\ezequ\desktop\primer parcial\primer parcial\main.c
+1538993875 source:c:\users\ezequ\desktop\primer parcial\primer parcial\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

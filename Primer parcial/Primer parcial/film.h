@@ -31,7 +31,7 @@ int baja(sPelicula* , int , int );
 int modificacionById(sPelicula* ,int , int );
 
 void hardcodeoPelicula(sPelicula* array,int freeIndex, int auxIdPelicula, char* auxTitulo,
-                        int auxAnio, char* auxNacionalidad, sDirector auxDirector, int auxIsEmpty);
+                        int auxAnio, char* auxNacionalidad, int auxDirector, int auxIsEmpty);
 ////////////////////////////////////////////////////////
 
 

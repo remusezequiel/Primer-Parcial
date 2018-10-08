@@ -281,13 +281,13 @@ int modificacionById(sPelicula* array,int size, int id)
 
 
 void hardcodeoPelicula(sPelicula* array,int freeIndex, int auxIdPelicula, char* auxTitulo,
-                        int auxAnio, char* auxNacionalidad, sDirector auxDirector, int auxIsEmpty)
+                        int auxAnio, char* auxNacionalidad, int auxDirector, int auxIsEmpty)
 {
     array[freeIndex].idPelicula=auxIdPelicula;
     strcpy(array[freeIndex].titulo,auxTitulo);
     array[freeIndex].anio=auxAnio;
     strcpy(array[freeIndex].nacionalidad,auxNacionalidad);
-    array[freeIndex].director.idDirector=auxDirector.idDirector;
+    array[freeIndex].director.idDirector=auxDirector;
     array[freeIndex].isEmpty=auxIsEmpty;
 }
 
