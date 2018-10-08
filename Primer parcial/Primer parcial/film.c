@@ -280,22 +280,15 @@ int modificacionById(sPelicula* array,int size, int id)
 /**************HARDCODEO DE DATOS**********************/
 
 
-void hardcodeoPelicula(sPelicula* array,int size)
+void hardcodeoPelicula(sPelicula* array,int freeIndex, int auxIdPelicula, char* auxTitulo,
+                        int auxAnio, char* auxNacionalidad, sDirector auxDirector, int auxIsEmpty)
 {
-    int id[LEN_HC]={0,1,2,3,4,5,6,7,8,9};
-    char titulo[LEN_HC][CHARLEN]={"PeliUno","PeliUno","PeliUno","PeliUno","PeliUno","PeliUno","PeliUno","PeliUno","PeliUno","PeliUno"};
-    int anio[LEN_HC]={1998,1955,1899,1998,1990,2000,2001,1997,1998,2006};
-    char nacionalidad[LEN_HC][CHARLEN]={"PaisUno","PaisUno","PaisUno","PaisUno","PaisUno","PaisUno","PaisUno","PaisUno","PaisUno","PaisUno"};
-    int idDirector[LEN_HC]={1,2,3,4,5,6,7,8,9,10};
-    int i;
-    for(i=0;i<LEN_HC;i++)
-    {
-        array[i].idPelicula=id[i];
-        strcpy(array[i].titulo,titulo[i]);
-        array[i].anio=anio[i];
-        strcpy(array[i].nacionalidad,nacionalidad[i]);
-        array[i].director.idDirector=idDirector[i];
-    }
+    array[freeIndex].idPelicula=auxIdPelicula;
+    strcpy(array[freeIndex].titulo,auxTitulo);
+    array[freeIndex].anio=auxAnio;
+    strcpy(array[freeIndex].nacionalidad,auxNacionalidad);
+    array[freeIndex].director.idDirector=auxDirector.idDirector;
+    array[freeIndex].isEmpty=auxIsEmpty;
 }
 
 

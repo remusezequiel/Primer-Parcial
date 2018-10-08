@@ -28,4 +28,7 @@ int bajaDirector(sDirector* array,int size,int id);
 void mostrarUnTipo_sDirector(sDirector director);
 int mostrarListaTipo_sDirector(sDirector* array, int size);
 
+void hardcoreoDirector(sDirector* array,int freeIndex,int auxIdDirector ,char* auxNombre,
+                        char* auxPaisDeOrigen, int auxIsEmpty);
+
 //////////////////////////////////////////////////////////////////

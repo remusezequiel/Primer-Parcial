@@ -30,7 +30,8 @@ int mostrarListaTipo_sPelicula(sPelicula* , int );
 int baja(sPelicula* , int , int );
 int modificacionById(sPelicula* ,int , int );
 
-void hardcodeoPelicula(sPelicula* ,int);
+void hardcodeoPelicula(sPelicula* array,int freeIndex, int auxIdPelicula, char* auxTitulo,
+                        int auxAnio, char* auxNacionalidad, sDirector auxDirector, int auxIsEmpty);
 ////////////////////////////////////////////////////////
 
 

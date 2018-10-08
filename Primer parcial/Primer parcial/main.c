@@ -32,11 +32,12 @@ int main()
     // Tipo struct y se inicializa
     sPelicula pelicula[LEN_FILM];
     inicializarPelicula(pelicula,LEN_FILM);
-    hardcodeoPelicula(pelicula,LEN_FILM);
+    //hardcodeoPelicula(pelicula,0,0,"peliUno",1995,"paisUno",5,0);
 
     // Tipo struct y se inicializa
     sDirector director[LEN_DIR];
     inicializarDirector(director,LEN_DIR);
+    //hardcodeoDirector(director,0,1,"dirUno","paisUno",0);
     //ACA IRIA EL HARDCODEO
 
 /*_______________________________________________________________________________________*/
